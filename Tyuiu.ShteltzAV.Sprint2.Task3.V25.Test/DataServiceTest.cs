@@ -1,20 +1,19 @@
-﻿using Tyuiu.ShteltzAV.Sprint2.Task3.V25.Lib;
+﻿using Tyuiu.ShteltsAV.Sprint2.Task3.V25.Lib;
 
-namespace Tyuiu.ShteltzAV.Sprint2.Task3.V25.Test
+namespace Tyuiu.ShteltsAV.Sprint2.Task3.V25.Test
 {
     [TestClass]
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidCondition()
+        public void TestFunctionValues()
         {
-
             DataService ds = new DataService();
-            double x = -1;
-            double res = ds.Calculate(x);
-            double wait = 0.5;
-            Assert.AreEqual(wait, res);
 
+            Assert.AreEqual(9.989, ds.Calculate(2));
+            Assert.AreEqual(0.333, ds.Calculate(0));
+            Assert.AreEqual(0.64, ds.Calculate(-2));
+            Assert.AreEqual(-3.0, ds.Calculate(-30));
         }
     }
 }

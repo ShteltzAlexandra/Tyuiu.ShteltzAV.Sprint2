@@ -15,8 +15,8 @@
     <Project Path="Tyuiu.ShteltzAV.Sprint2.Task2.V26/Tyuiu.ShteltzAV.Sprint2.Task2.V26.csproj" Id="73d1064b-8b70-43ce-8604-8399d2048577" />
   </Folder>
   <Folder Name="/Task3/">
-    <Project Path="Tyuiu.ShteltzAV.Sprint2.Task3.V25.Lib/Tyuiu.ShteltzAV.Sprint2.Task3.V25.Lib.csproj" Id="4bd0e610-d017-4085-9c93-4ad525419551" />
-    <Project Path="Tyuiu.ShteltzAV.Sprint2.Task3.V25.Test/Tyuiu.ShteltzAV.Sprint2.Task3.V25.Test.csproj" Id="9115e679-5457-4bc8-8db0-d649805904e7" />
-    <Project Path="Tyuiu.ShteltzAV.Sprint2.Task3.V25/Tyuiu.ShteltzAV.Sprint2.Task3.V25.csproj" Id="71d1ee55-e671-48f6-8fc5-7bc93be913fb" />
+    <Project Path="Tyuiu.ShteltzAV.Sprint2.Task3.V25.Lib/Tyuiu.ShteltzAV.Sprint2.Task3.V25.Lib.csproj" Id="bbce3711-d0a7-4e90-875c-374047b8f76d" />
+    <Project Path="Tyuiu.ShteltzAV.Sprint2.Task3.V25.Test/Tyuiu.ShteltzAV.Sprint2.Task3.V25.Test.csproj" Id="71537953-6880-4dd9-a13f-90165157605b" />
+    <Project Path="Tyuiu.ShteltzAV.Sprint2.Task3.V25/Tyuiu.ShteltzAV.Sprint2.Task3.V25.csproj" Id="758e6dc6-cf91-493f-a03c-69a15dbbea91" />
   </Folder>
 </Solution>
