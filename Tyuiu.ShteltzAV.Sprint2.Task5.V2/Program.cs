@@ -24,31 +24,26 @@ namespace Tyuiu.ShteltzAV.Sprint2.Task5.V2
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.Write("Введите номер месяца (от 1 до 12): ");
-            string? input = Console.ReadLine();
+            Console.WriteLine("Введите номер месяца: ");
+            int numMouth = Convert.ToInt32(Console.ReadLine());
+
+            string res;
+
+            if ((numMouth < 1) || (numMouth > 12))
+            {
+                res = "Введено неверное значение!";
+            }
+            else
+            {
+                res = "Это пора года: " + ds.FindMonthSeason(numMouth);
+            }
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            if (!int.TryParse(input, out int monthNum))
-            {
-                Console.WriteLine("Ошибка: введены некорректные данные! Ожидается целое число.");
-            }
-            else
-            {
-                try
-                {
-                    string season = ds.FindMonthSeason(monthNum);
-                    Console.WriteLine($"Пора года: {season}");
-                }
-                catch (ArgumentException ex)
-                {
-                    Console.WriteLine($"Ошибка: {ex.Message}");
-                }
-            }
+            Console.WriteLine(res);
 
-            Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }
     }
