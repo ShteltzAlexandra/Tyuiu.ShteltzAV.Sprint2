@@ -21,7 +21,7 @@ namespace Tyuiu.ShteltzAV.Sprint2.Task4.V29
             Console.WriteLine("* Написать программу, которая вычисляет требуемое значение с              *");
             Console.WriteLine("* использованием тернарного оператора, где пользователь вводит значения   *");
             Console.WriteLine("* переменных x, y с клавиатуры: если x - 3 < y + 2 - 20,                  *");
-            Console.WriteLine("* то z = 2x + 12y - (2/x), иначе z = x^2 - (2/y).                        *");
+            Console.WriteLine("* то z = 2x + 12y - (2/x), иначе z = x^2 - (2/y).                         *");
             Console.WriteLine("* Ответ округлите до 3 знаков после запятой.                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
