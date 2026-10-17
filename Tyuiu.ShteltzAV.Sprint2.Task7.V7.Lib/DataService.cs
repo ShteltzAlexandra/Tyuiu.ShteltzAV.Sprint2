@@ -9,7 +9,7 @@ namespace Tyuiu.ShteltzAV.Sprint2.Task7.V7.Lib
         {
             bool res;
 
-            if ((y <= 2 - Math.Pow(x, 2)) && ((x <= 0 && y >= 0) || (x >= 0 && y >= x)))
+            if ((y >= 0) && (y >= x) && (y <= 2 - Math.Pow(x, 2)) || (y >= 0) && (y <= x) && (y <= 2 - Math.Pow(x,2)) || (y <= 0) && (y >= x) && (y <= 2 - Math.Pow(x, 2)))
             {
                 res = true;
             }
